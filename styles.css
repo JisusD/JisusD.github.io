@@ -1,0 +1,232 @@
+/* Estilos generales */
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  /* Estilos para el encabezado */
+  
+  header {
+    text-align: match-parent;
+    padding: 100px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #aaa;
+  }
+  
+  /* Estilos para la barra de navegación */
+  
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 20px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+  
+  nav li a:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para las secciones */
+  
+  section {
+    padding: 100px;
+  }
+  
+  section h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  section p {
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  
+  #inicio {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #inicio a.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  #proyectos ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #proyectos li {
+    margin-bottom: 40px;
+  }
+  
+  #proyectos h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  #proyectos p {
+    font-size: 1.2em;
+  }
+  
+  #proyectos a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  #certificados ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #certificados li {
+    margin-bottom: 40px;
+  }
+  
+  #certificados h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  #certificados p {
+    font-size: 1.2em;
+  }
+  
+  #certificados a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para el pie de página */
+  
+  footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+  }
+  
+  /* Agrega los estilos adicionales aquí */
+  
+  /* Estilos para la tipografía */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Estilos para imágenes y gráficos */
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para efectos y animaciones */
+  
+  section {
+    transition: background-color 0.3s ease;
+  }
+  
+  .parallax {
+    background-image: url("Juego_Fondo.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2 {
+    background-image: url("analista_de_datos.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Estilos para diseño responsivo */
+  
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      max-width: 90%;
+    }
+  }
+  
+  /* Estilos para iconos y elementos gráficos */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+  
+  /* Estilos para menú de navegación pegajoso */
+  
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
