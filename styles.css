@@ -22,7 +22,7 @@ body {
   
   header {
     text-align: match-parent;
-    padding: 100px;
+    padding: 200px;
   }
   
   header h1 {
@@ -183,8 +183,10 @@ body {
   img {
     max-width: 100%;
     height: auto;
+    float: left;
+    margin-right: 20px;
   }
-  
+
   /* Estilos para efectos y animaciones */
   
   section {
@@ -193,14 +195,6 @@ body {
   
   .parallax {
     background-image: url("Juego_Fondo.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .parallax2 {
-    background-image: url("analista_de_datos.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
