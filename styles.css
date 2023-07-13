@@ -171,6 +171,25 @@ body {
   
   /* Agrega los estilos adicionales aquí */
   
+  /* Estilos para dispositivos de pantalla grande */
+  body {
+    font-size: 16px;
+  }
+  
+  /* Estilos para dispositivos de pantalla mediana */
+  @media (max-width: 1024px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos para dispositivos de pantalla pequeña */
+  @media (max-width: 768px) {
+    body {
+      font-size: 12px;
+    }
+  }
+
   /* Estilos para la tipografía */
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
   
@@ -199,18 +218,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  /* Estilos para diseño responsivo */
-  
-  @media screen and (max-width: 768px) {
-    body {
-      font-size: 14px;
-    }
-  
-    .container {
-      max-width: 90%;
-    }
   }
   
   /* Estilos para iconos y elementos gráficos */
